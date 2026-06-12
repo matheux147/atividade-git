@@ -290,15 +290,17 @@ git status
 ## Adicionar os arquivos
 
 ```bash
-git add .
+git add . ou git add index.html
 ```
 
+Você pode enviar todas as alterações de uma vez, mas o ideal é que siga as boas práticas de commits atômicos.
 ---
 
 ## Criar um commit
 
 ```bash
-git commit -m "Personaliza portfolio"
+git commit -m "feat: Adicionar biografia"
+git commit -m "feat: Adicionar informações de contato"
 ```
 
 Você pode utilizar outra mensagem de commit se desejar.
